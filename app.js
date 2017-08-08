@@ -43,7 +43,7 @@ var db = mongoose.connection;
 
 // Initial page
 app.get('/', function(req,res){
-    res.send('Please use /api/books or /api/genres');
+    res.send('Please use /api/streamlinks');
 });
 
 // Gets all of the streamlinks
@@ -89,5 +89,5 @@ app.get('/api/streamlinks/:_id', function(req,res){
 //     });
 // });
 
-app.listen(3000);
-console.log('Running on Port 3000...');
+app.listen(9000);
+console.log('Running on Port 9000...');
