@@ -1,0 +1,16 @@
+{
+  "name": "resttest",
+  "version": "1.0.0",
+  "description": "Test REST app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "author": "James Mete",
+  "license": "ISC"
+}
